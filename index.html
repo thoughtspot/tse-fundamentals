@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+  HTML file for the layout of the TS Everywhere Fundamentals application.  You shouldn't have to modify this file.
+-->
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'/>
+    <title>TSE Fundamentals</title>
+    <link rel='icon' href='img/TS.png'/>
+    <link rel='stylesheet' href='css/tse.css'/>
+</head>
+<body>
+<div id="header">
+    <span class='use-case-name'>&nbsp;Retail Analytics</span>
+</div>
+<!-- Initial landing page for connecting. -->
+<div id='login' class='visible'>
+    <form id='login-form'>
+        <span id='ts-url'></span>
+        <br/>
+        <br/>
+        <button id='login-button' type='button'>Connect</button>
+    </form>
+</div>
+
+<!-- Main application -->
+<div id="main-app" class="hidden">
+    <div id='navbar' class='sidenav'>
+        <a id='search-link'>Search</a>
+        <a id='liveboard-link'>Liveboard</a>
+        <a id='visualization-link'>Visualization</a>
+        <a id='full-application-link'>Full Application</a>
+    </div>
+    <!-- Main content area - this is where ThoughtSpot embed components will be embedded. -->
+    <div id='embed'>
+        <p class="instructions">&#8592;&nbsp;Choose an option from the side panel.</p>
+    </div>
+</div>
+<script src='js/tse.js' type='module'></script>
+</body>
+</html>
