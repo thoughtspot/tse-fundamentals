@@ -13,4 +13,4 @@ File and folder structure:
 
 ## Running the application
 
-This is a web applicaiton and will need to be deployed to a web server to run.  If you want to test locally, you can use something simple like the [Python http.server](https://docs.python.org/3/library/http.server.html):  `python3 -m http.server <port>`.  Simply run that command from the root folder (where `index.html` exists).  
+This is a web application and will need to be deployed to a web server to run.  If you want to test locally, you can use something simple like the [Python http.server](https://docs.python.org/3/library/http.server.html):  `python3 -m http.server <port>`.  Simply run that command from the root folder (where `index.html` exists).  
