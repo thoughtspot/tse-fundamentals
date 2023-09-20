@@ -13,9 +13,9 @@ File and folder structure:
 
 ## Running the application in CodeSandbox
 
-The training content has been created as a sandbox in CodeSandbox to make it easy to run and test.  You can find the sandbox here:  https://codesandbox.io/s/github/thoughtspot/tse-fundamentals-tutorial?file=/index.html
+The training content has been created as a sandbox in <a href="https://codesandbox.io/s/github/thoughtspot/tse-fundamentals-tutorial?file=/index.html" target="_blank">CodeSandbox</a> to make it easy to run and test.    
 
-To edit the code, simply fork the sandbox and make your changes. ![codesandbox-fork](img/codesandbox-fork.png) 
+To edit the code, simply fork the sandbox and make your changes. ![codesandbox-fork](img/codesandbox-fork.png | width=50)
 
 ## Running the application locally
 
