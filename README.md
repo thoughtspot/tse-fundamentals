@@ -11,6 +11,12 @@ File and folder structure:
 * `./css/tse.css` - the main css file for the application.
 * `./img` - contains the images for the application.
 
+## Running the application in CodeSandbox
+
+The training content has been created as a sandbox in CodeSandbox to make it easy to run and test.  You can find the sandbox here:  https://codesandbox.io/s/github/thoughtspot/tse-fundamentals-tutorial?file=/index.html
+
+To edit the code, simply fork the sandbox and make your changes. ![codesandbox-fork](codesandbox-fork/img.png) 
+
 ## Running the application locally
 
 This is a web application and will need to be deployed to a web server to run.  If you want to test locally, you can use something simple like the [Python http.server](https://docs.python.org/3/library/http.server.html):  `python3 -m http.server <port>`.  Simply run that command from the root folder (where `index.html` exists).  
