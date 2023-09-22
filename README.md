@@ -17,6 +17,16 @@ The training content has been created as a sandbox in <a href="https://codesandb
 
 ![codesandbox-fork](img/codesandbox-fork.png)
 
+You can either create a CodeSandbox account, or choose the "Continue without an account" option at the bottom of the dialog that appears.
+
+You can export your existing fork from CodeSandbox using the top left menu, then chooseing *File*->*Export to Zip*
+
+![codesandbox-export](img/codesandbox-save-to-zip.png)
+
 ## Running the application locally
 
-This is a web application and will need to be deployed to a web server to run.  If you want to test locally, you can use something simple like the [Python http.server](https://docs.python.org/3/library/http.server.html):  `python3 -m http.server <port>`.  Simply run that command from the root folder (where `index.html` exists).  
+This is a web application and will need to be deployed to a web server to run.  
+
+Bring down the tutorial from GitHub, or export the fork you made in CodeSandox (see above)
+
+If you want to test locally, you can use something simple like the [Python http.server](https://docs.python.org/3/library/http.server.html):  `python3 -m http.server <port>`.  Simply run that command from the root folder (where `index.html` exists).  
