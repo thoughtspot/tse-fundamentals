@@ -10,6 +10,7 @@ File and folder structure:
 * `./css` - contains the css for the application.
 * `./css/tse.css` - the main css file for the application.
 * `./img` - contains the images for the application.
+* *`./js/backups/tse-final.js` - the reference for a final, completed version of `tse.js` at the end of the tutorial
 
 ## Running the application in CodeSandbox
 
