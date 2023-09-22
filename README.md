@@ -36,3 +36,16 @@ If you want to test locally, you can use something simple like the [Python http.
 * Open up your command-line
 * Change to the root folder of your downloaded project (where `index.html` exists) - either `cd` or `dir` depending on your environment
 * Run `python3 -m http.server <port>`  (8000, 8080, or 3000 are all typical testing ports)  
+
+## Completing the tutorial
+
+The easiest way to generate code is to use the Developer Playground - go to the `DEVELOP` tab in ThoughtSpot, then click **Visual Embed SDK**->**Playground** in the left-side menu.
+
+For each type of embedded component:
+
+* Select the component type and the contnet that looks like what you want
+* Press "Run" to see how it will look in the Playground
+* Copy/paste the code from the code editor in the bottom left into your `tse.js` in the appropriate location
+* Clean up the code within `tse.js` - make sure all the references to variables and element IDs match up to what actually exists in your `tse.js` and `index.html`
+
+
