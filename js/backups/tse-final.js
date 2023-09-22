@@ -44,7 +44,7 @@ const onSearch = () => {
     disabledActions: [Action.Download, Action.DownloadAsCsv],
     disabledActionReason: "Enterprise feature",
     hiddenActions: [Action.Share],
-    dataSources: ["1b1c237d-9de8-4542-bf1f-0c3157ddb8d2"],
+    dataSources: ["4d98d3f5-5c6a-44eb-82fb-d529ca20e31f"],
     searchOptions: {
       searchTokenString: '[sales] [product type]',
       executeSearch: true,
@@ -58,7 +58,7 @@ const onLiveboard = () => {
   const embed = new LiveboardEmbed("#embed", {
     frameParams: {},
     liveboardV2: true,
-    liveboardId: "fda23eef-4edc-4a1a-884c-1570d2b3b079",  // TODO - set to your liveboard ID.
+    liveboardId: "0dc92611-2643-4c3e-a7c3-e7e421af9fd1",
     disabledActions: [Action.DownloadAsPdf],
     disabledActionReason: 'Enterprise feature.',
     hiddenActions: [Action.LiveboardInfo]
@@ -71,8 +71,8 @@ const onVisualization = () => {
   const embed = new LiveboardEmbed("#embed", {
     frameParams: {},
     liveboardV2: true,
-    liveboardId: "fda23eef-4edc-4a1a-884c-1570d2b3b079",  // TODO - set to your liveboard ID.
-    vizId: "dcbf0121-dc91-40ae-9a5c-e480d47eebfa",
+    liveboardId: "0dc92611-2643-4c3e-a7c3-e7e421af9fd1",
+    vizId: "48e23452-675f-4088-aa1b-774e036008f7",
   });
 
   embed.render();
