@@ -26,8 +26,12 @@ You can export your existing fork from CodeSandbox using the top left menu, then
 
 ## Running the application locally
 
-This is a web application and will need to be deployed to a web server to run.  
+This is a web application and will need to be deployed to a web server, but does not require anything more than the ability to serve files over http (no additional backend to install).  
 
-Bring down the tutorial from GitHub, or export the fork you made in CodeSandox (see above)
+Bring down the tutorial from GitHub, or export the fork you made in CodeSandox (see above) into a directory.
 
-If you want to test locally, you can use something simple like the [Python http.server](https://docs.python.org/3/library/http.server.html):  `python3 -m http.server <port>`.  Simply run that command from the root folder (where `index.html` exists).  
+If you want to test locally, you can use something simple like the [Python http.server](https://docs.python.org/3/library/http.server.html):  
+
+* Open up your command-line
+* Change to the root folder of your downloaded project (where `index.html` exists) - either `cd` or `dir` depending on your environment
+* Run `python3 -m http.server <port>`  (8000, 8080, or 3000 are all typical testing ports)  
