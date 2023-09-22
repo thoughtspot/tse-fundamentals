@@ -21,6 +21,7 @@ You can either create a CodeSandbox account, or choose the "Continue without an 
 
 You can export your existing fork from CodeSandbox using the top left menu, then chooseing *File*->*Export to Zip*
 
+![codesandbox-export](img/codesandbox-save-to-zip.png)
 
 
 ## Running the application locally
