@@ -9,6 +9,7 @@ import {
   LiveboardEmbed,
   Page,
   RuntimeFilterOp,
+  SageEmbed,
   SearchEmbed,
 } from 'https://unpkg.com/@thoughtspot/visual-embed-sdk/dist/tsembed.es.js';
 
@@ -19,45 +20,37 @@ const tsURL = "https://training.thoughtspot.cloud";
 
 // Create and manage the login screen.
 const onLogin = () => {
-  // Hide the 'login' div
-  hideDiv('login');
-  // Show the 'main-app' div
-  showDiv('main-app');
-
   // TODO add the init() to set up the SDK interface.
-  // See https://developers.thoughtspot.com/docs/getting-started#initSdk for the init() function
 
-  
+  hideDiv('login');
+  showDiv('main-app');
 }
 
 //----------------------------------- Functions to embed content . -----------------------------------
 
 const onSearch = () => {
-  // See https://developers.thoughtspot.com/docs/search-embed for the SearchEmbed component
-
   // TODO replace the following with a SearchEmbed component and render.
   document.getElementById("embed").innerHTML = "<p class='warning'>Search not yet embedded.</p>";
 }
 
-const onLiveboard = () => { 
-  // See https://developers.thoughtspot.com/docs/embed-liveboard for the LiveboardEmbed component
+const onSage = () => {
+    // TODO replace the following with a SageEmbed component and render.
+    document.getElementById("embed").innerHTML = "<p class='warning'>Natural Language Search not yet embedded.</p>";
+}
 
+const onLiveboard = () => {
   // TODO replace the following with a LiveboardEmbed component and render.
   document.getElementById("embed").innerHTML = "<p class='warning'>Liveboard not yet embedded.</p>";
 }
 
 const onVisualization = () => {
-  // See https://developers.thoughtspot.com/docs/embed-a-viz for loading a Visualizatoin with the LiveboardEmbed component
-  
   // TODO replace the following with a LiveboardEmbed component and render.
   document.getElementById("embed").innerHTML = "<p class='warning'>Visualization not yet embedded.</p>";
 }
 
 // Embed the full application.
 const onFull = () => {
-  // See https://developers.thoughtspot.com/docs/full-embed for the AppEmbed component
-  
-  // TODO replace the following with an AppEmbed component and render.  
+  // TODO replace the following with an AppEmbed component and render.
   document.getElementById("embed").innerHTML = "<p class='warning'>Full app not yet embedded.</p>";
 }
 
@@ -75,7 +68,6 @@ const hideDiv = divId => {
 }
 
 //---------------------------- connect UI to code and start the app. ----------------------------
-// Each of the following elements referred to in the .getElementById() methods are defined in the index.html page
 
 // Show the URL to connect to.
 document.getElementById('ts-url').innerText = 'ThoughtSpot Server: ' + tsURL;
@@ -85,6 +77,7 @@ document.getElementById('login-button').addEventListener('click', onLogin);
 
 // Events for nav bar
 document.getElementById('search-link').addEventListener('click', onSearch);
+document.getElementById('sage-link').addEventListener('click', onSage);
 document.getElementById('liveboard-link').addEventListener('click', onLiveboard);
 document.getElementById('visualization-link').addEventListener('click', onVisualization);
 document.getElementById('full-application-link').addEventListener('click', onFull);
