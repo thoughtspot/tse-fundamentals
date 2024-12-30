@@ -9,7 +9,7 @@ import {
   LiveboardEmbed,
   Page,
   RuntimeFilterOp,
-  SageEmbed,
+  ConversationEmbed,
   SearchEmbed,
 } from 'https://unpkg.com/@thoughtspot/visual-embed-sdk/dist/tsembed.es.js';
 
@@ -33,9 +33,9 @@ const onSearch = () => {
   document.getElementById("embed").innerHTML = "<p class='warning'>Search not yet embedded.</p>";
 }
 
-const onSage = () => {
-    // TODO replace the following with a SageEmbed component and render.
-    document.getElementById("embed").innerHTML = "<p class='warning'>Natural Language Search not yet embedded.</p>";
+const onSpotter = () => {
+  // TODO replace the following with a ConversationEmbed component and render.
+  document.getElementById("embed").innerHTML = "<p class='warning'>Natural Language Conversation not yet embedded.</p>";
 }
 
 const onLiveboard = () => {
@@ -77,7 +77,7 @@ document.getElementById('login-button').addEventListener('click', onLogin);
 
 // Events for nav bar
 document.getElementById('search-link').addEventListener('click', onSearch);
-document.getElementById('sage-link').addEventListener('click', onSage);
+document.getElementById('spotter-link').addEventListener('click', onSpotter);
 document.getElementById('liveboard-link').addEventListener('click', onLiveboard);
 document.getElementById('visualization-link').addEventListener('click', onVisualization);
 document.getElementById('full-application-link').addEventListener('click', onFull);
